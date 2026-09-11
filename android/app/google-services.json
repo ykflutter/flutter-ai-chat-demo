@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "396951276881",
+    "project_id": "chatappagora-c867d",
+    "storage_bucket": "chatappagora-c867d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396951276881:android:a687831b47b8112575d770",
+        "android_client_info": {
+          "package_name": "com.demo.demoarchi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396951276881-hbousb1a02jbsfttgam1c7h12f9gt5cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8lJfPQ7HkqNiI0CqoG4Np0q4SlyZfoMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396951276881-hbousb1a02jbsfttgam1c7h12f9gt5cv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "396951276881-d3j4fr2i1ncmrb0eqkdoamro707u97p1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.agorademo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396951276881:android:44288801f33c336a75d770",
+        "android_client_info": {
+          "package_name": "com.example.agorademo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396951276881-ie9qcc10r38rl3surf4g895libusurio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agorademo",
+            "certificate_hash": "8024b20692dc9a781b9d9f2686eda26cdbed704a"
+          }
+        },
+        {
+          "client_id": "396951276881-hbousb1a02jbsfttgam1c7h12f9gt5cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8lJfPQ7HkqNiI0CqoG4Np0q4SlyZfoMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396951276881-hbousb1a02jbsfttgam1c7h12f9gt5cv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "396951276881-d3j4fr2i1ncmrb0eqkdoamro707u97p1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.agorademo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
