@@ -1,17 +1,105 @@
-# demoarchi
+# Flutter AI Chat Demo 🤖
 
-A new Flutter project.
+A simple AI Chat demo app built with Flutter, BLoC, Dio, Firebase, and Groq API.
 
-## Getting Started
+This project is created as a small **Flutter community/GitHub demo** to demonstrate AI API integration, state management, asynchronous API handling, and chat UI.
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+* 💬 AI Chat
+* 🤖 Groq AI API integration
+* ⚡ BLoC state management
+* 🌐 Dio API integration
+* 🔥 Firebase integration
+* 🧹 Clear chat
+* 📋 Copy AI response
+* 🌙 Dark/Light theme
+* 📡 Streaming AI response
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🛠 Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter
+* Dart
+* BLoC
+* Dio
+* Firebase
+* Groq API
+
+## 📱 Platform
+
+* Android
+* iOS
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ykflutter/flutter-ai-chat-demo.git
+```
+
+### 2. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Configure API Key
+
+Create your Groq API key and configure it locally.
+
+**Do not commit your API key to GitHub.**
+
+### 4. Run the app
+
+```bash
+flutter run
+```
+
+## 📂 Project Structure
+
+```text
+lib/
+├── bloc/
+│   ├── chat_bloc.dart
+│   ├── chat_event.dart
+│   └── chat_state.dart
+│
+├── core/
+│
+├── data/
+│   └── ai_service.dart
+│
+├── screens/
+│   └── chat_screen.dart
+│
+└── main.dart
+```
+
+## 🎯 Purpose
+
+This project is intentionally kept simple so Flutter developers can understand the basic flow:
+
+```text
+User
+  ↓
+Chat UI
+  ↓
+BLoC
+  ↓
+AI Service
+  ↓
+Groq API
+  ↓
+AI Response
+  ↓
+Chat UI
+```
+
+## 🤝 Contributions
+
+Suggestions, improvements, and pull requests are welcome.
+
+## 📄 License
+
+This project is open source and available for learning and community use.
